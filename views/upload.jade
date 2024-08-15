@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 upload files
+  form(action="/upload/all" method="post" enctype="multipart/form-data")
+    input(type="file" name="myFile")
+    button(type="submit") 上传

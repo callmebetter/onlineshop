@@ -17,3 +17,10 @@ hello world
   - 娃娃菜
 
  >practice makees perfect 
+
+
+
+## run the app
+```bash
+SET DEBUG=express-generator:* & npm start
+```
