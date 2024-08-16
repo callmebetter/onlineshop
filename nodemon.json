@@ -1,0 +1,8 @@
+{
+    "watch": [
+        "bin/www",
+        "routes",
+        "views",
+        "app.js"
+    ]
+}
