@@ -1,7 +1,10 @@
 const router = require("express").Router();
 const multer = require('multer');
+
+const authenticated = require('../middlewares/authenticated');
 const logger = require("../common/logger");
 
+router.use(authenticated);
 const root = process.cwd();
 
 /* GET home page. */

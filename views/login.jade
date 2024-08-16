@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.flex.items-center.justify-center.h-screen
+    div.bg-white.shadow-md.rounded-lg.p-8.w-96
+      h2.text-2xl.font-bold.mb-6.text-center 登录
+      form(action="/login" method="post")
+        div.mb-4
+          label.block.font-bold.mb-2(for="username") 用户名
+          input(type="text" autocomplete="off" id="username" name="username" class="w-full border rounded-lg p-2")
+        div.mb-4
+          label.block.font-bold.mb-2(for="password") 密码
+          input(type="password" autocomplete="off" id="password" name="password" class="w-full border rounded-lg p-2")
+        button(type="submit" class="w-full bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300") 登录
