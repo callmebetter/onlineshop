@@ -33,3 +33,4 @@ pnpm-lock.yaml
 /logs
 *.log
 /public/uploads
+/sessions
